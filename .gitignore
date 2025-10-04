@@ -1,0 +1,25 @@
+/.firebase/
+.firebaserc
+node_modules/
+dist/
+build/
+*.log
+*.env
+.env.local
+.env.*.local
+/.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+__pycache__/
+
+# Ignore OS files
+.DS_Store
+
+# Keep CSV templates but ignore user uploads
+# (If you plan to commit sample CSVs, remove the following line)
+# uploads/
